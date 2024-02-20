@@ -3,33 +3,62 @@ void practice() {
   String name = 'Emtithal';
   String email = 'Emtithal@gmail.com';
   int experianse = 2;
-  int salary = 500;
+  double salary = 500;
   double bouns1 = 0.1;
   double bouns2 = 0.2;
+  double bouns = 0;
 
   print(name.toUpperCase());
   print(email.substring(0, 8).toUpperCase());
+  //& ☝print(email.substring(0, email.indexOf('@')).toUpperCase());
   print(email.replaceAll('@gmail.com', '@hotmail.org'));
 
-  if (experianse < 5) {
-    print('10%');
-  } else {
-    print('20%');
-  }
+  print('****************');
+  print(experianse);
   //#before
-  print(salary);
-  // #after bouns
-
+  print('salary before:$salary');
   if (experianse < 5) {
-    print(salary + bouns1);
+    bouns = salary * .1;
+    print('bouns:$bouns');
   } else {
-    print(salary + bouns2);
+    bouns = salary * .2;
+    print('bouns:$bouns');
   }
+
+  // #after bouns
+  salary = salary + bouns; //& edit based on experianse
+  print('salary after:$salary');
+  // if (experianse < 5) {
+  //   print(salary + bouns);
+  // } else {
+  //   print(salary + bouns);
+  // }
 
   //salary next 3 year
 
-  for (var i = 3; i < 7; i++) {
-    print('${(salary = salary + bouns1.floor()) + i}');
+  // for (var i = 3; i < 7; i++) {
+  //   print('${(salary = salary + bouns1.floor()) + i}');
+  // }
+
+  //2 => 3 => 4=> 5
+  print('****************');
+  for (var i = 1; i < 4; i++) {
+    experianse = experianse + 1; //& edit experianse
+    print(experianse);
+    //#before
+    print('salary before:$salary');
+    if (experianse < 5) {
+      bouns = salary * .1;
+      print('bouns:$bouns');
+    } else {
+      bouns = salary * .2;
+      print('bouns:$bouns');
+    }
+
+    // #after bouns
+    salary = salary + bouns;
+    print('salary after:$salary');
+    print('****************');
   }
 
   //^ Emtithal => EMTITHAL
