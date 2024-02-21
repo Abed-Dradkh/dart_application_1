@@ -4,8 +4,8 @@
 
 import 'dart:developer';
 
-import 'package:dart_application_1/emtithal%20folder/practice.dart';
-import 'package:dart_application_1/emtithal%20folder/practice2.dart';
+import '../lib/emtithal folder/practice.dart';
+import '../lib/emtithal folder/practice2.dart';
 
 void main(List<String> arguments) {
   //Data Types
@@ -104,6 +104,6 @@ void main(List<String> arguments) {
   //   print('${age.abs() + i} years');
   // }
 
-  practice(); // call Emtital Practice
-  // practice2();
+  // practice(); // call Emtital Practice
+  practice2();
 }
