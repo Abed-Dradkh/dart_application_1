@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 void practice2() {
   //^ Imagine we have value named 'home' store price of item
   //^ value named 'cart' store price + (tax * count)
@@ -51,4 +53,6 @@ void practice2() {
   total = total + delivery; //!
   print('Delivery:$delivery');
   print('Total:$total');
+
+  //^ try to add 1 item more
 }
