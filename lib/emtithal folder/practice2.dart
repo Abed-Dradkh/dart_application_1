@@ -13,7 +13,7 @@ void practice2() {
   // price after:550.0 sa
   int count = 1;
   double price = 10;
-  double tax = 0.3;
+  double tax = 0;
   double cart = 0;
   double total = 0;
   double delivery = 0.5;
@@ -22,31 +22,33 @@ void practice2() {
   // price before tax:
   print('price before tax:$price');
   // price after tax:
-  tax = tax * count;
+  tax = 0.3 * count; //!
 
   print('tax:$tax');
 
-  cart = price + (tax * count);
+  cart = price + tax;
   print('price after tax:$cart');
 
   print('****************');
 
   for (var i = 2; i < 6; i++) {
+    tax = 0; //! to reset tax
     count = count + 1;
 
     print(count);
     print('price before tax:$cart');
 
-    tax = tax * count;
+    tax = 0.3 * count; //! to calcualte tax
 
-    print('tax:$tax');
-    cart = price + (tax * count);
+    print('tax:${tax.toStringAsFixed(1)}'); //! to round tax into 1 digit
+    cart = cart + tax; //! to calcualte + old data
     print('price after tax:$cart');
+    print('****************');
   }
-  print('****************');
 
   total = cart;
-  print('total:$total');
-  delivery = delivery + cart;
-  print('delivery:$delivery');
+  print('SubTotal:$total');
+  total = total + delivery; //!
+  print('Delivery:$delivery');
+  print('Total:$total');
 }
