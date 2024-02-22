@@ -4,10 +4,7 @@
 
 import 'dart:developer';
 
-import 'package:dart_application_1/emtithal%20folder/practice3.dart';
-
-import 'package:dart_application_1/emtithal%20folder/practice.dart';
-import 'package:dart_application_1/emtithal%20folder/practice2.dart';
+import '../lib/emtithal folder/practice2.dart';
 
 void main(List<String> arguments) {
   //Data Types
