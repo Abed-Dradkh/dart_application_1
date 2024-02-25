@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 void practice2() {
   //^ Imagine we have value named 'home' store price of item
   //^ value named 'cart' store price + (tax * count)

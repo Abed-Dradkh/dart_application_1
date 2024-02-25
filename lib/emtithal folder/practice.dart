@@ -4,8 +4,8 @@ void practice() {
   String email = 'Emtithal@gmail.com';
   int experianse = 2;
   double salary = 500;
-  double bouns1 = 0.1;
-  double bouns2 = 0.2;
+  // double bouns1 = 0.1;
+  // double bouns2 = 0.2;
   double bouns = 0;
 
   print(name.toUpperCase());

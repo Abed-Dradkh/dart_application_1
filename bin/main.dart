@@ -2,12 +2,7 @@
 //& for information
 //^ example
 
-import 'dart:developer';
-
-import 'package:dart_application_1/abed/day1.dart';
 import 'package:dart_application_1/emtithal%20folder/practice3.dart';
-
-import 'package:dart_application_1/emtithal%20folder/practice2.dart';
 
 void main(List<String> arguments) {
   //Data Types
@@ -108,6 +103,6 @@ void main(List<String> arguments) {
 
   // practice(); // call Emtital Practice
   // practice2();
-  // practice3();
-  day1();
+  practice3();
+  // day1();
 }
