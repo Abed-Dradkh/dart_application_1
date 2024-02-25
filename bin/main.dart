@@ -2,6 +2,7 @@
 //& for information
 //^ example
 
+import 'package:dart_application_1/abed/day2.dart';
 import 'package:dart_application_1/emtithal%20folder/practice3.dart';
 
 void main(List<String> arguments) {
@@ -103,6 +104,7 @@ void main(List<String> arguments) {
 
   // practice(); // call Emtital Practice
   // practice2();
-  practice3();
+  // practice3();
   // day1();
+  day2();
 }
