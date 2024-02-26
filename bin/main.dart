@@ -104,7 +104,7 @@ void main(List<String> arguments) {
 
   // practice(); // call Emtital Practice
   // practice2();
-  // practice3();
+  practice3();
   // day1();
-  day2();
+  // day2();
 }
