@@ -4,6 +4,10 @@
 
 import 'package:dart_application_1/abed/day2.dart';
 import 'package:dart_application_1/emtithal%20folder/practice3.dart';
+import 'package:dart_application_1/emtithal%20folder/practice4.dart';
+import 'package:dart_application_1/emtithal%20folder/practice5.dart';
+import 'package:dart_application_1/emtithal%20folder/practice7.dart';
+import 'package:dart_application_1/emtithal%20folder/practice8.dart';
 
 void main(List<String> arguments) {
   //Data Types
@@ -104,7 +108,12 @@ void main(List<String> arguments) {
 
   // practice(); // call Emtital Practice
   // practice2();
-  practice3();
+  // practice3();
+  // practice4();
+  // practice5();
+  // practice6();
+  // practice7();
+  practice8();
   // day1();
   // day2();
 }
