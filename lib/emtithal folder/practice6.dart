@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void practice() {
+void practice6() {
   //Create a program that asks the user for a number and then prints
   // out a list of all the divisors of that number.
   // If you don’t know what a divisor is, it is a number that divides
@@ -11,9 +11,24 @@ void practice() {
   String num = stdin.readLineSync() ?? '';
   int number = int.parse(num);
 
-  // for (var i = 0; i < number; i++) {
-  //   if (i % number) {
-  //     print("divisors of number:$number");
-  //   }
-  // }
+  List<int> divisors = [];
+  String remainder = '';
+
+  divisors.add(number);
+
+  //* for loop to make all proccess only
+  for (var i = 1; i < number; i++) {
+    if (number.isEven) {
+      number = number ~/ 2;
+      divisors.add(number);
+    } else {
+      if (divisors.length > 1) {
+        remainder = 'no remainder';
+      } else {
+        remainder = 'remainder';
+      }
+    }
+  }
+
+  print('$divisors with $remainder');
 }

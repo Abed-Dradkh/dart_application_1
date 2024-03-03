@@ -8,18 +8,20 @@ void practice8() {
 
   List<int> a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
   List<int> b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+
   List<int> newlist = [];
+  List<int> duplicates = [];
 
   for (var i in a) {
-    for (var e in b) {
-      if (a == b) {
-        newlist.add(a[i]);
+    if (b.contains(i)) {
+      if (!newlist.contains(i)) {
+        newlist.add(i);
+      } else {
+        duplicates.add(i);
       }
     }
-
-    if (b == a) {
-      newlist.add(b[i]);
-    }
   }
+
   print(newlist);
+  print(duplicates);
 }
