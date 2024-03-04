@@ -114,6 +114,9 @@ void main(List<String> arguments) {
   // practice6();
   // practice7();
   practice8();
+  // practice9();
+  //   practice10();
+
   // day1();
   // day2();
 }
