@@ -5,9 +5,25 @@ void practice9() {
 //that has only the even elements of this list in it.
 
   List<int> a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
-  List<int> b = [];
+  List<int> evenList = [];
+  List<int> oddList = [];
 
-  // if (a.isEven) {
-  //   print('Even');
+  for (var item in a) {
+    if (item.isEven) {
+      evenList.add(item);
+    } else {
+      oddList.add(item);
+    }
+  }
+
+  // for (var i = 0; i < a.length; i++) {
+  //   if (a[i].isEven) {
+  //     evenList.add(a[i]);
+  //   } else {
+  //     oddList.add(a[i]);
+  //   }
   // }
+
+  print(evenList);
+  print(oddList);
 }
