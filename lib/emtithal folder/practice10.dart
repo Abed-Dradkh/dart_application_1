@@ -7,5 +7,15 @@ void practice10() {
   stdout.write('Enter a number');
   String number = stdin.readLineSync() ?? '';
   int num = int.parse(number);
-  // if (num.is) {}
+  if (num <= 1) {
+    print('false');
+  }
+
+  for (var i = 2; i <= num.bitLength / 2; i++) {
+    if (num % i == 0) {
+      print('not prime');
+    } else {
+      print('is prime');
+    }
+  }
 }
