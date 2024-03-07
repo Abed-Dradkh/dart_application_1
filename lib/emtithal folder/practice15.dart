@@ -3,6 +3,8 @@ void practice15() {
   //إطلبي من المستخدم إدخال عدة ارقام بناءا على حجم الليست المدخل سابقا
   //Find minimum and maximum and avarage
 
+  //*assign minimum and maximum to first number of list => to get actual values
+
   //! use 1 loop for inputs
   //! use 1 loop for process => minimum, maximum, sum
 
