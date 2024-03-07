@@ -4,4 +4,32 @@ void practice12() {
   //Square => 8cm
   //Rectangular => h:7cm, w:4cm
   //tringle => a->b 4cm, b->c 5cm c->a 8cm
+
+  int square = 8;
+  int rectangular = 0;
+  int rectangularH = 7;
+  int rectangularW = 4;
+  int tringle = 0;
+  int tringleAB = 4;
+  int tringleBC = 5;
+  int tringleCA = 8;
+  double RightAngledTriangle = 0;
+  int base = 40;
+  int height = 30;
+
+  // square
+  square = 8 * 4;
+  print(square);
+
+  // Rectangular
+  rectangular = (rectangularH + rectangularW) * 2;
+  print(rectangular);
+
+  // tringle
+  tringle = tringleAB + tringleBC + tringleCA;
+  print(tringle);
+
+  // RightAngledTriangle
+  RightAngledTriangle = (1 / 2 * base) * height;
+  print(RightAngledTriangle.toInt());
 }
