@@ -9,5 +9,5 @@ void practice15() {
   //! use 1 loop for process => minimum, maximum, sum
 
   //& avarage => sum of all numbers / count
-  //& avarage => out of loop  => when calcualte sum of all number then calcualte avarage
+  //& avarage => out of loop ==> when calcualte sum of all number then calcualte avarage
 }
