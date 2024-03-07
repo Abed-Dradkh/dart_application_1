@@ -57,6 +57,5 @@ void day1() {
   print(letters);
   List<String> name = [];
   name = letters.sublist(0, 3); //& to make copy of data
-
   print(name);
 }
