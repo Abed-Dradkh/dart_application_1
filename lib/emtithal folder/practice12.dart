@@ -13,9 +13,9 @@ void practice12() {
   int tringleAB = 4;
   int tringleBC = 5;
   int tringleCA = 8;
-  double RightAngledTriangle = 0;
-  int base = 40;
-  int height = 30;
+  double rightAngledTriangle = 0;
+  int base = 90;
+  int height = 60;
 
   // square
   square = 8 * 4;
@@ -30,6 +30,8 @@ void practice12() {
   print(tringle);
 
   // RightAngledTriangle
-  RightAngledTriangle = (1 / 2 * base) * height;
-  print(RightAngledTriangle.toInt());
+  rightAngledTriangle = (1 / 2 * base) * height;
+  print(rightAngledTriangle);
+
+  print((5 / 6).toStringAsFixed(1));
 }

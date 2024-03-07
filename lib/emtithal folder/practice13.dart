@@ -5,4 +5,16 @@ void practice13() {
 
   List<String> names = ['emtithal', 'cat', 'dog', 'emtithal', 'cat'];
   List<String> newList = [];
+
+  Set<String> newName = Set.from(names); //other solution
+
+  for (var name in names) {
+    if (!newList.contains(name)) {
+      newList.add(name);
+    }
+  }
+
+  print(newList);
+
+  print(newName);
 }
