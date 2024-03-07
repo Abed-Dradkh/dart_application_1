@@ -5,4 +5,5 @@ void practice13() {
 
   List<String> names = ['emtithal', 'cat', 'dog', 'emtithal', 'cat'];
   List<String> newList = [];
+  List<String> list = [];
 }
