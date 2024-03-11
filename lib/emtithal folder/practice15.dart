@@ -14,10 +14,10 @@ void practice15() {
   //& avarage => out of loop ==> when calcualte sum of all number then calcualte avarage
 
   stdout.write('Enter a number:');
-  String number = stdin.readLineSync() ?? '';
+  String number = stdin.readLineSync() ?? ''; //!
   int num = int.parse(number);
 
-  List<int> list = [];
+  List<int> list = []; //!
   int max = 0;
   int min = 0;
   int sum = 0;
@@ -31,10 +31,13 @@ void practice15() {
     list.add(numb);
   }
   print(list);
+  //To give Actual Number then get Actual Answer
   max = list.first;
   min = list.first;
 
   for (var i in list) {
+    //List => 4
+    //0,1,2,3
     if (i > max) {
       max = i;
     }

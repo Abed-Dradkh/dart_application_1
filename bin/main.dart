@@ -3,6 +3,7 @@
 //^ example
 
 import 'package:dart_application_1/abed/day2.dart';
+import 'package:dart_application_1/abed/day5.dart';
 import 'package:dart_application_1/emtithal%20folder/practice10.dart';
 import 'package:dart_application_1/emtithal%20folder/practice12.dart';
 import 'package:dart_application_1/emtithal%20folder/practice13.dart';
@@ -125,8 +126,9 @@ void main(List<String> arguments) {
   // practice10();
   // practice12();
   // practice14();
-  practice15();
+  // practice15();
 
   // day1();
   // day2();
+  day5();
 }
