@@ -18,8 +18,11 @@ void day5() {
 
   stdout.write('Enter a numbers:');
   String numbers = stdin.readLineSync() ?? '';
-
   List<String> splitted = numbers.split(' ');
+
+  stdout.write('Enter a symbol:');
+  String symbol = stdin.readLineSync() ?? '';
+  List<String> sym = symbol.split(symbol);
 
   //*
 
