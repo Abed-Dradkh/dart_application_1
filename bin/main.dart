@@ -9,6 +9,7 @@ import 'package:dart_application_1/emtithal%20folder/practice12.dart';
 import 'package:dart_application_1/emtithal%20folder/practice13.dart';
 import 'package:dart_application_1/emtithal%20folder/practice14.dart';
 import 'package:dart_application_1/emtithal%20folder/practice15.dart';
+import 'package:dart_application_1/emtithal%20folder/practice16.dart';
 import 'package:dart_application_1/emtithal%20folder/practice3.dart';
 import 'package:dart_application_1/emtithal%20folder/practice4.dart';
 import 'package:dart_application_1/emtithal%20folder/practice5.dart';
@@ -127,8 +128,9 @@ void main(List<String> arguments) {
   // practice12();
   // practice14();
   // practice15();
+  practice16();
 
   // day1();
   // day2();
-  day5();
+  // day5();
 }
