@@ -38,8 +38,24 @@ void practice16() {
   if (operation == '*') {
     result = (n1 * n2).toDouble();
     print(result.toInt());
-  } else if (operation == '/') {
-    result = (n1 / n2).toDouble();
+  } else {
+    result = (n1 / n2);
     print(result);
   }
+
+  //Alternative Answer
+
+  // if (operation == '+') {
+  //   result = (n1 + n2).toDouble();
+  //   print(result.toInt());
+  // } else if (operation == '-') {
+  //   result = (n1 - n2).toDouble();
+  //   print(result.toInt());
+  // } else if (operation == '*') {
+  //   result = (n1 * n2).toDouble();
+  //   print(result.toInt());
+  // } else {
+  //   result = (n1 / n2);
+  //   print(result);
+  // }
 }
