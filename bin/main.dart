@@ -4,7 +4,7 @@
 
 import 'package:dart_application_1/abed/day2.dart';
 import 'package:dart_application_1/abed/day5.dart';
-import 'package:dart_application_1/abed/day6.dart';
+import 'package:dart_application_1/abed/day6_basic.dart';
 import 'package:dart_application_1/abed/day6_function.dart';
 import 'package:dart_application_1/abed/day6_new.dart';
 import 'package:dart_application_1/emtithal%20folder/practice10.dart';
