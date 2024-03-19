@@ -35,20 +35,60 @@ void practice10() {
   int number = int.parse(stdin.readLineSync() ?? '');
   List<int> accepted = [];
 
-  String count = n1(number);
-  String count2 = n2(number);
+  // String count1 = n1(number, accepted);
 
-  print(count);
-  print(count2);
+  n2(number, accepted);
+
+  // print(count1);
   print(accepted);
 }
 
-String n1(int number) {
+String n1(int number, List<int> list) {
+  int counter = 0;
+
   if (number == 1) {
-    return '$number:prime';
-  } else if (number > 1) {
-    return 'Not prime';
+    return '$number:Prime';
   } else {
-    return 'Prime';
+    //number < 1
+    //number > 1
+    for (var i = 2; i < 100; i++) {
+      if (number % i == 0) {
+        counter++; //Counter for how much time that number get divided and return 0
+        list.add(i);
+      }
+    }
+
+    print(counter);
+
+    if (counter > 1) {
+      return 'Not Prime';
+    } else {
+      return 'Prime';
+    }
+  }
+}
+
+void n2(int number, List<int> list) {
+  int counter = 0;
+
+  if (number == 1) {
+    print('Prime');
+  } else {
+    //number < 1
+    //number > 1
+    for (var i = 2; i < 100; i++) {
+      if (number % i == 0) {
+        counter++; //Counter for how much time that number get divided and return 0
+        list.add(i);
+      }
+    }
+
+    print(counter);
+
+    if (counter > 1) {
+      print('Not Prime');
+    } else {
+      print('Prime');
+    }
   }
 }
